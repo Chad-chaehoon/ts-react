@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es5", "es2015", "es2016", "dom"],
+    "jsx": "react",
+    "esModuleInterop": false // 기본적인 React엔 export.default가 없으니 import * as React from 'react'를 하는데 이걸 true로 하면 * as 없이 켜기 가능 함, 하지만 이걸 true로 하는 것을 추천 하지 않음.
+  }
+}
